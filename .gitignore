@@ -114,4 +114,5 @@ cscope.*
 tags
 TAGS
 docker-src.*
+/build*
 *~
