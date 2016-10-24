@@ -116,3 +116,6 @@ TAGS
 docker-src.*
 /build*
 *~
+.cproject
+.project
+.settings/

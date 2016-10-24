@@ -31,8 +31,8 @@
 [submodule "roms/u-boot"]
 	path = roms/u-boot
 	url = git://git.qemu-project.org/u-boot.git
-[submodule "GTK+"]
-	path = GTK+
+[submodule "gtk"]
+	path = gtk+
 	url = git://git.gnome.org/gtk+
 [submodule "libffi"]
 	path = libffi
@@ -43,3 +43,6 @@
 [submodule "gettext"]
 	path = gettext
 	url = git://git.savannah.gnu.org/gettext.git
+[submodule "glib"]
+	path = glib
+	url = git://git.gnome.org/glib
