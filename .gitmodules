@@ -1,3 +1,7 @@
+[submodule "gnulib"]
+	path= qnulib
+	url = git://git.savannah.gnu.org/gnulib.git
+
 [submodule "roms/vgabios"]
 	path = roms/vgabios
 	url = git://git.qemu-project.org/vgabios.git/
@@ -46,3 +50,9 @@
 [submodule "glib"]
 	path = glib
 	url = git://git.gnome.org/glib
+[submodule "pkgconfig"]
+	path = pkg-config
+	url = git://anongit.freedesktop.org/pkg-config
+[submodule "SDL"]
+	path = SDL
+	url = git@github.com:SDL-mirror/SDL.git
