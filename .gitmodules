@@ -1,7 +1,6 @@
 [submodule "gnulib"]
 	path= qnulib
 	url = git://git.savannah.gnu.org/gnulib.git
-
 [submodule "roms/vgabios"]
 	path = roms/vgabios
 	url = git://git.qemu-project.org/vgabios.git/
@@ -40,7 +39,7 @@
 	url = git://git.gnome.org/gtk+
 [submodule "libffi"]
 	path = libffi
-	url = git@github.com:libffi/libffi.git
+	url = http://github.com/libffi/libffi.git
 [submodule "libiconv"]
 	path = libiconv
 	url = git://git.savannah.gnu.org/libiconv.git
@@ -55,4 +54,4 @@
 	url = git://anongit.freedesktop.org/pkg-config
 [submodule "SDL"]
 	path = SDL
-	url = git@github.com:SDL-mirror/SDL.git
+	url = http://github.com:/SDL-mirror/SDL.git
