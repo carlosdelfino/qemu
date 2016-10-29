@@ -58,11 +58,6 @@
 	url = git://git.qemu-project.org/u-boot.git
 	shallow = true
 	update = checkout
-[submodule "gtk"]
-	path = gtk+
-	url = git://git.gnome.org/gtk+
-	shallow = true
-	update = checkout
 [submodule "libffi"]
 	path = libffi
 	url = http://github.com/libffi/libffi.git
