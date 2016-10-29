@@ -1,8 +1,15 @@
+[submodule "libiconv"]
+	path = libiconv
+	url = git://git.savannah.gnu.org/libiconv.git
+	shallow = true
+	update = checkout
+	branch = "v1.9.2"
 [submodule "gettext"]
 	path = gettext
 	url = git://git.savannah.gnu.org/gettext.git
 	shallow = true
 	update = checkout
+	branch = master
 [submodule "libffi"]
 	path = libffi
 	url = http://github.com/libffi/libffi.git
@@ -15,7 +22,7 @@
 	update = checkout
 	branch = "v1.2.8"
 [submodule "gnulib"]
-	path= qnulib
+	path = gnulib
 	url = git://git.savannah.gnu.org/gnulib.git
 	shallow = true
 	update = checkout
@@ -72,11 +79,6 @@
 [submodule "roms/u-boot"]
 	path = roms/u-boot
 	url = git://git.qemu-project.org/u-boot.git
-	shallow = true
-	update = checkout
-[submodule "libiconv"]
-	path = libiconv
-	url = git://git.savannah.gnu.org/libiconv.git
 	shallow = true
 	update = checkout
 [submodule "glib"]
