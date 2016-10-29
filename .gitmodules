@@ -3,7 +3,6 @@
 	url = git://git.savannah.gnu.org/libiconv.git
 	shallow = true
 	update = checkout
-	branch = "v1.9.2"
 [submodule "gettext"]
 	path = gettext
 	url = git://git.savannah.gnu.org/gettext.git
