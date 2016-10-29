@@ -1,3 +1,19 @@
+[submodule "gettext"]
+	path = gettext
+	url = git://git.savannah.gnu.org/gettext.git
+	shallow = true
+	update = checkout
+[submodule "libffi"]
+	path = libffi
+	url = http://github.com/libffi/libffi.git
+	shallow = true
+	update = checkout
+[submodule "zlib"]
+	path = zlib
+	url = git@github.com:madler/zlib.git
+	shallow = true
+	update = checkout
+	branch = "v1.2.8"
 [submodule "gnulib"]
 	path= qnulib
 	url = git://git.savannah.gnu.org/gnulib.git
@@ -58,19 +74,9 @@
 	url = git://git.qemu-project.org/u-boot.git
 	shallow = true
 	update = checkout
-[submodule "libffi"]
-	path = libffi
-	url = http://github.com/libffi/libffi.git
-	shallow = true
-	update = checkout
 [submodule "libiconv"]
 	path = libiconv
 	url = git://git.savannah.gnu.org/libiconv.git
-	shallow = true
-	update = checkout
-[submodule "gettext"]
-	path = gettext
-	url = git://git.savannah.gnu.org/gettext.git
 	shallow = true
 	update = checkout
 [submodule "glib"]
