@@ -10,10 +10,10 @@
 	update = checkout
 [submodule "zlib"]
 	path = zlib
-	url = git@github.com:madler/zlib.git
+	url = http://github.com/madler/zlib.git
 	shallow = true
 	update = checkout
-	checkout = "v1.2.8"
+	branch = "v1.2.8"
 [submodule "gnulib"]
 	path= qnulib
 	url = git://git.savannah.gnu.org/gnulib.git
