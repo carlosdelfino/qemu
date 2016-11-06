@@ -71,7 +71,11 @@
 	path = pkg-config
 	url = git://anongit.freedesktop.org/pkg-config
 	update = checkout
+#http://github.com:/SDL-mirror/SDL.git
 [submodule "SDL"]
 	path = SDL
 	url = http://github.com:/SDL-mirror/SDL.git
 	update = checkout
+[submodule "glibc"]
+	path = glibc
+	url = git://sourceware.org/git/glibc.git
