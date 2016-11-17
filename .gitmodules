@@ -71,17 +71,19 @@
 	path = pkg-config
 	url = git://anongit.freedesktop.org/pkg-config
 	update = checkout
-#http://github.com:/SDL-mirror/SDL.git
 [submodule "SDL"]
 	path = SDL
-	url = http://github.com:/SDL-mirror/SDL.git
+	url = http://github.com/SDL-mirror/SDL.git
 	update = checkout
 [submodule "glibc"]
 	path = glibc
 	url = git://sourceware.org/git/glibc.git
+	update = checkout
 [submodule "libssh2"]
 	path = libssh2
-	url = https://github.com/libssh2/libssh2.git
+	url = http://github.com/libssh2/libssh2.git
+	update = checkout
 [submodule "libusb"]
 	path = libusb
-	url = https://github.com/libusb/libusb.git
+	url = http://github.com/libusb/libusb.git
+	update = checkout
